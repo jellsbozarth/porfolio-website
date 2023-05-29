@@ -6,9 +6,12 @@ Text Color (Charcoal): #524F4A;
 Button Color (Brandy Rose): #B3907A;
 Detail Color (Dusty Sage): #A6A998;
 */
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Baskervville', serif;
-  background-color: #EFE7DA;
+  background-color: #ffffff;
   font-size: 16px;
   /* Sets the font size to 16px */
   font-weight: 300;
@@ -106,4 +109,74 @@ a:focus {
 .button.contact:hover {
   background-color: transparent;
   color: #B3907A;
+}
+header {
+  background-color: #EFE7DA;
+  position: fixed;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 3px solid #4a4a4a;
+  text-align: center;
+  .css-box-shadow{
+    /*start ------------*/
+    width: [object Object]px; 
+    height: [object Object]px; 
+    background: #F8F8F8; 
+    border: solid #BDBDBD 1px; 
+    box-shadow: 5px 15px 24px rgba(0, 0, 0, 0.5)  ; 
+    -webkit-box-shadow: 5px 15px 24px rgba(0, 0, 0, 0.5)  ; 
+    -moz-box-shadow: 5px 15px 24px rgba(0, 0, 0, 0.5)  ; 
+  }
+}
+selector {
+  margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
+}
+.container {
+  max-width: 1200px;
+}
+
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+#work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+.logo {
+  max-width: 250px;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 10px;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+nav > ul > li > a:visited {
+  color:#15006b;
+}
+nav > ul > li > a:hover a:focus {
+    color: #524F4A;
+    text-decoration: underline;
+}
+
+nav > ul > li > a:active {
+  /* selected link */
+  color: #25a734;
+}
+#hero {
+  background-color: #EFE7DA;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+main {
+  padding-top: 350px;
+  width: 100%;
 }
