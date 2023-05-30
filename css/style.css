@@ -112,20 +112,19 @@ a:focus {
 }
 header {
   background-color: #EFE7DA;
+  padding: 10px 0;
   position: fixed;
-  padding: 10px;
-  margin: 10px;
-  border-bottom: 3px solid #4a4a4a;
+  width: 100%;
   text-align: center;
   .css-box-shadow{
     /*start ------------*/
     width: [object Object]px; 
     height: [object Object]px; 
     background: #F8F8F8; 
-    border: solid #BDBDBD 1px; 
-    box-shadow: 5px 15px 24px rgba(0, 0, 0, 0.5)  ; 
-    -webkit-box-shadow: 5px 15px 24px rgba(0, 0, 0, 0.5)  ; 
-    -moz-box-shadow: 5px 15px 24px rgba(0, 0, 0, 0.5)  ; 
+    border: solid #BDBDBD 0; 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7)  ; 
+    -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7)  ; 
+    -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7)  ; 
   }
 }
 selector {
@@ -133,12 +132,9 @@ selector {
 }
 .container {
   max-width: 1200px;
-}
-
-/* Layout styling */
-.container {
   padding: 0 15px;
 }
+
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
@@ -177,6 +173,6 @@ nav > ul > li > a:active {
   width: 100%;
 }
 main {
-  padding-top: 350px;
+  padding-top: 300px;
   width: 100%;
 }
