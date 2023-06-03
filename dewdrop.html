@@ -20,7 +20,7 @@
 <body>
 
     <header>
-        <div>
+        <div class="container">
             <img class="logo" src="./img/logo.png" alt="J R Creative Designs" />
             <nav>
                 <ul>
@@ -33,19 +33,25 @@
         </div>
     </header>
     <main>
-        <div class="container">
-        <div>
-            <div>
+
+        <div id="projects">
+            <div class="container">
                 <h1>Dew Drop</h1>
-            </div>
-        </div>
-        <div>
-            <picture>
-                <source srcset="./img/dew-drop/dd-sm.png" media="(max-width:767px)">
-                <img src="./img/dew-drop/dd-lg.png" alt="Dew Drop">
-            </picture>
-            <div>
-                <h2>Dew Drop: A Responsive Money Saving App</h2>
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div>
+                            <picture>
+                                <source srcset="./img/dew-drop/dd-sm.png" media="(max-width:767px)">
+                                <img src="./img/dew-drop/dd-lg.png" alt="Dew Drop">
+                            </picture>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <h2>Dew Drop: A Responsive Money Saving App</h2>
                 <p>Have you ever wanted to be a good money saver and just haven’t known where to start? Or how to start?
                     Good news, you’re not alone!
 
@@ -68,8 +74,10 @@
                     support everyone at any level they may be at. So with that being said, let’s get started!
 
                 </p>
+                        <a href="#" class="button">Read more</a>
+                    </div>
+                </div>
             </div>
-        </div>
         </div>
     </main>
 
