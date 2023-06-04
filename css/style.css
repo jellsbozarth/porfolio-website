@@ -229,10 +229,6 @@ main {
   [class*="col-"] {
     float: left;
     padding: 0 10px;
-
-    width: 100%;
-max-width: 100%;
-height: auto;
   }
   #about-page h3 { margin-top: 0;}
 }
@@ -260,23 +256,11 @@ height: auto;
   .col-lg-5 {
     width: 40%;
   }
-  [class*="col-"] {
-    float: left;
-    padding: 0 10px;
-
-    width: 100%;
-max-width: 100%;
-height: auto;
-  }
   #about-page h3 { margin-top: 0;}
 
   .container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-
-    width: 100%;
-max-width: 100%;
-height: auto;
   }
 }
