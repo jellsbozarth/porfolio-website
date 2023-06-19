@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
+    <script src="https://kit.fontawesome.com/e3221ba7f6.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,15 +21,19 @@
 <body>
     <header>
         <div class="container">
-            <img class="logo" src="./img/logo.png" alt="J R Creative Designs" />
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="dewdrop.html">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="navtoggle" id="myNavtoggle">
+                <img class="logo" src="./img/logo.png" alt="J R Creative Designs" />
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="dewdrop.html">Projects</a></li>
+                        <li><a href="#contact onclick=" menuToggle()">Contact</a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i
+                                    class="fas fa-bars"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
@@ -186,8 +191,9 @@
         </div>
     </footer>
 
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/scripts.js"></script>
-    
+
 </body>
 
 </html>
