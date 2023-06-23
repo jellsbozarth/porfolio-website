@@ -100,7 +100,7 @@ a:focus {
 .button.contact {
   background-color: #B3907A;
   color: #ffffff;
-  text-transform: uppercase;
+  text-transform: capitalize;
   border: 2px solid #524F4A;
 }
 .button.contact:hover {
