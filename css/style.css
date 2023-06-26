@@ -98,15 +98,18 @@ a:focus {
 }
 
 .button.contact {
+  display: inline-block;
   background-color: #B3907A;
   color: #ffffff;
-  text-transform: capitalize;
-  border: 2px solid #524F4A;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px;
+  margin:25px;
+  border-radius: 3px;
+  border-bottom: 2px solid #524F4A;
+  transition: 0.2s opacity;
 }
-.button.contact:hover {
-  background-color: transparent;
-  color: #B3907A;
-}
+
 header {
   background-color: #EFE7DA;
   padding: 10px 0 4px;
